@@ -1,0 +1,100 @@
+.adopt-container {
+    padding: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  
+  .adopt-title {
+    color: black;
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    background-color: #FFBE98;
+    border-radius: 50%;
+  }
+  
+  .adopt-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding-top: 20px;
+  }
+  
+  .adopt-card {
+    background-color: #FEECE2;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+  }
+
+  .adopt-card .adopt-image{
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .adopt-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .adopt-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .adopt-info {
+    padding: 10px;
+  }
+  .adopt-info>p {
+    text-align: left;
+  }
+  .adopt-name {
+    margin-top: 0;
+  }
+  
+  .adopt-price {
+    font-weight: bold;
+  }
+  
+  .adopt-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .adopt-button {
+    background-color: #FFBE98;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .adopt-button:hover {
+    background-color: #ff8c00;
+  }
+  
+
+  .amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+  }
+
+  .adopt-info p{
+    color:black;
+    font-weight: 1000;
+    font-size: 1.25rem;
+    padding-left: 10px;
+  }
+  

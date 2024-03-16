@@ -1,0 +1,72 @@
+body{
+    background-color: whitesmoke;
+  }
+  
+  .register-form-container {
+    background-color: #FFBE98; 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 100px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-color: #ffa500;
+    font-family: "Amatic SC", sans-serif;
+  }
+  
+  .register-form-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+  .register-form-group {
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  
+  .register-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .register-form-group input[type="text"],
+  .register-form-group input[type="email"],
+  .register-form-group input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .register-form-group .checkbox-group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: black;
+  }
+  
+  .register-form-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #FFBE98;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; 
+    border: none;
+    font-family: "Amatic SC", sans-serif;
+  }
+  
+  button:hover {
+    background-color: #ff8c00;
+  }

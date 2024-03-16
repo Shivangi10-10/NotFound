@@ -1,0 +1,12 @@
+.chat-bot {
+    position: fixed;
+    top: 300px;
+    left: 1000px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: 430px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

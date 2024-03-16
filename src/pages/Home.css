@@ -1,0 +1,145 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  background-color: #FEECE2;
+ }
+
+ h2 {
+  text-align: center;
+ }
+ @media (max-width: 768px) {
+  .home-container {
+      flex-direction: column;
+  }
+  
+  .content {
+      margin-right: 20px;
+  }
+ }
+
+.content h2 {
+  margin: 0;
+  font-size: 10rem;
+  color: black;
+}
+
+.content p {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.content {
+  flex: 1;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 0;
+  max-width: 200px;
+ }
+ 
+ .amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+}
+
+.padding {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.doodle {
+  max-height: 50px;
+  margin-bottom: 10px;
+}
+
+.what-we-do {
+  background-color: #FFBE98;
+}
+
+.what-we-do h2{
+  font-size: 5rem;
+  padding-top: 20px;
+  color: white;
+ }
+
+ .what-we-do p,img {
+  margin-left: 80px;
+  margin-right: 10px;
+  padding: 20px;
+ }
+
+ .what-we-do-content-left, .what-we-do-content-img {
+  display: flex;
+  flex-direction: column; /* This will stack the content vertically */
+  width: 50%; /* This should work with the flex container */
+ }
+ 
+.what-we-do-content-img img {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
+.what-we-do-body {
+  display: flex; /* This is crucial for a flex layout */
+  flex-direction: row; /* This is correct */
+  justify-content: space-between; /* This will add space between the child elements */
+  align-items: center; /* This will align items vertically in the center */
+  background-color: #FFBE98;
+  padding: 20px; /* Add some padding for better spacing */
+ }
+ 
+ .contribution h2{
+  font-size: 5rem;
+  padding-top: 20px;
+ }
+
+ .contribution .body{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+ }
+ .box {
+  border: 2px solid black;
+  border: dashed;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px; 
+  width: 300px;
+  height: 300px;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+ }
+
+ .box h2{
+  font-size: 50px;
+ }
+ .box p{
+  font-size: 1.75rem;
+ }
+
+ .learn-more {
+  background-color: #FFBE98;
+  font-size: 1.25rem;
+  color: black;
+  border: none;
+ }
+
+ .learn-more:hover {
+  background-color: #FFBE98;
+  color: black;
+  font-weight: bolder;
+ }

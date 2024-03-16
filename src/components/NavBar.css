@@ -1,0 +1,85 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: var(--z-fixed);
+ }
+ 
+ .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: var(--header-height);
+  margin: 1rem;
+ }
+ 
+ .nav__logo {
+  transition: color 0.4s;
+  font-size: var(--h2-font-size);
+  font-family: var(--second-font);
+ }
+ 
+ .nav__toggle,
+ .nav__close {
+  font-size: 1.5rem;
+  color: var(--title-color);
+  cursor: pointer;
+ }
+ 
+ .nav__cta {
+  background-color: #FFBE98;
+  color: var(--title-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 0.75rem 1.5rem;
+ }
+
+ .nav__list {
+  display: flex;
+  row-gap: 2.5rem;
+  justify-content: center;
+ }
+
+ .nav__item .nav__link {
+  color: #FFBE98;
+ }
+ .nav__link {
+  font-weight: bold;
+  transition: color 0.4s;
+  margin: 2px 12px 2px 2px;
+  font-size: 25px;
+ }
+ 
+ .nav__link:hover {
+  color: black;
+ }
+ 
+ .nav__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+ }
+ 
+ .show-menu {
+  right: 0;
+ }
+ .amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav__item .nav__cta {
+  font-weight: bold;
+  transition: color 0.4s;
+  margin: 2px 12px 2px 2px;
+  font-size: 25px;
+  color: white;
+}
+.nav__item .nav__cta:hover {
+  color: black;
+}

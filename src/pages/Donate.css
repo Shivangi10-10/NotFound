@@ -1,0 +1,85 @@
+.donate {
+  padding-top: 0.1px;
+  background-repeat: no repeat;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex; /* This is crucial for a flex layout */
+  flex-direction: row; /* This is correct */
+  justify-content: space-between; /* This will add space between the child elements */
+  align-items: center;
+}
+
+.donate>p {
+  margin-top: 80px;
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  margin-bottom: 0;
+}
+.donate-container {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .donate-container, .donate-header {
+    display: flex;
+    flex-direction: column; /* This will stack the content vertically */
+    width: 50%;
+  }
+
+  .donate-header {
+    background-color: #F7DED0;
+    background-image: url('https://imagesload.net/content/media/f369695cdd597de965e8c05a2267d8fc.png');
+  }
+  .donate-header h2{
+    text-align: center;
+    position: relative;
+    color: white;
+    text-shadow: black 10px 0 10px;
+    font-size: 8rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 100px;
+    margin-bottom: 150px;
+    padding-top: 100px;
+  }
+  
+  .card {
+    background-color: #FFBE98;
+    margin: 0;
+    margin-top: 30px;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+  
+  .card h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+ 
+  .amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+  }

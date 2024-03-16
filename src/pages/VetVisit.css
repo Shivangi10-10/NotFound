@@ -1,0 +1,88 @@
+/* VetVisit.css */
+.vet-visit-container {
+  padding: 20px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.vet-visit-title {
+  color: black;
+  font-size: 4.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  background-color: #FFBE98;
+  border-radius: 50%;
+}
+
+.vet-visit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.vet-visit-card {
+  background-color: #FEECE2;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.vet-visit-card:hover {
+  transform: translateY(-5px);
+}
+
+.vet-visit-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  padding: 0%;
+  margin: 0%;
+}
+
+.vet-visit-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.vet-visit-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.vet-visit-button {
+  background-color: #FFBE98;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vet-visit-button:hover {
+  background-color: #ff8c00;
+}
+
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+}
+
+.vet-visit-info p {
+  color: black;
+  font-weight: 1000;
+  font-size: 1.25rem;
+  padding-left: 10px;
+}
+
+.search-bar{
+  margin-left: 75%;
+}

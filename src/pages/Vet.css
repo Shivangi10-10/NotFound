@@ -1,0 +1,67 @@
+/* Vet.css */
+.vet {
+  margin: 70px auto;
+}
+.vet-visit-body {
+  margin: 70px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1{
+  color: #000;
+  margin: 50px;
+  text-align: center;
+  font-weight:1000;
+}
+
+.vet-box {
+  background-color: #f7ded0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  font-weight:1000;
+  font-size: 2rem;
+}
+
+.vet-box a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.vet-box h3 {
+  color: #ffbe98;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.vet-box p {
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.vet-box p b {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .vet-box {
+    width: 80%;
+  }
+}
+
+
+.vet-visit-title {
+  color: black;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #FFBE98;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}

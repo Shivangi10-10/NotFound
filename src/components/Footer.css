@@ -1,0 +1,103 @@
+.contact-us {
+  background-color: #FFBE98;
+  color: #fff;
+  padding: 50px 0;
+  
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-header h2
+{
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.footer p {
+  font-size: 15px;
+}
+
+.contact-header p {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.contact-social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-social-media .social-icon {
+  color: black;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FFBE98;
+  color: black;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.contact-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  background-color: #FFBE98;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #FEECE2;
+  font-weight: bold;
+}
+
+.footer p{
+  text-align: center;
+  background-color: #FFBE98;
+  color: black;
+}
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contact-us {
+  display: flex; /* This is crucial for a flex layout */
+  flex-direction: row; /* This is correct */
+  justify-content: space-between; /* This will add space between the child elements */
+  align-items: center;
+}
+
+.footer-image, .footer-quote, .after-quote{
+  width: 33%;
+}
+
+.footer-quote p {
+  font-size: 40px;
+  color: black;
+}
+
+.footer-image img {
+  height: 300px;
+}
