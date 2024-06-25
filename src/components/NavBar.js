@@ -39,6 +39,11 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li className="nav__item">
+              <NavLink to="/Donate" className="nav__link" onClick={toggleMenu}>
+                Donate
+              </NavLink>
+            </li>
+            <li className="nav__item">
               <NavLink to="/Adopt" className="nav__link" onClick={toggleMenu}>
                 Adopt
               </NavLink>
